@@ -1,0 +1,107 @@
+.footer{
+    &__inner{
+        padding-top: 100px;
+    }
+    &__top{
+        margin-bottom: 32px;
+    }
+    &__logo{
+        display: flex;
+        
+        align-items: center;
+        column-gap: 7px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Rubik'  , sans-serif;
+        margin-bottom: 20px;
+    }
+    &__address{
+        font-family: 'DM Sans' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    &__address::before{
+        content: '';
+        background-image: url(../../Assets//images//Location.png);
+        width: 18px;
+        height: 20px;
+        display: inline-block;
+        vertical-align:middle;
+        margin: 0 13.5px 0 0;
+    }
+    &__index{
+        font-family: 'DM Sans' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    &__index::before{
+        content: '';
+        background-image: url(../../Assets//images//Calling.png);
+        width: 21px;
+        height: 21px;
+        display: inline-block;
+        vertical-align:middle;
+        margin: 0 11px 0 0;
+    }
+    &__email{
+        font-family: 'DM Sans' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    &__email::before{
+        content: '';
+        background-image: url(../../Assets//images//Message.png);
+        width: 21.5px;
+        height: 20px;
+        display: inline-block;
+        vertical-align:middle;
+        margin: 0 11px 0 0;
+    }
+    &__socials{
+        display: flex;
+        column-gap: 15px;
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__other-info{
+        color: rgba(255, 255, 255, 0.8);   
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        
+    }
+    &__other-info p{
+        margin-bottom: 15px;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 33px 0 36px 0;
+    }
+    &__reserve{
+        font-family: 'Rubik' , sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    &__rules{
+        display: flex;
+        column-gap: 54px;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

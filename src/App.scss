@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    // background-color: rgb(45, 29, 136);
+    background: #111827;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+@import './Layout/Header//header.scss';
+@import './Pages/Home/Home.scss';
+@import './Pages/Service/service.scss';
+@import './Pages/Customer/customer.scss';
+@import './Pages/Team//team.scss';
+@import './Pages/Email/email.scss';
+@import './Layout//Footer//footer.scss';

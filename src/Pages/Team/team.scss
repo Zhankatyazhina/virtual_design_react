@@ -1,0 +1,73 @@
+.team{
+    padding-top: 107px;
+    &__title{
+        font-family: 'DM Sans' , sans-serif;
+        font-size: 42px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 55px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &__text{
+        font-family: 'DM Sans' , sans-serif;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 20.83px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__members{
+        padding-top: 40px;
+        // column-gap: 30px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__mem{
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px 0px #0000000D;
+        width: 270px;
+        height: 266px;
+        border-radius: 34px;
+    }
+    &__mem-img{
+        background: transparent;
+        padding: 30px 80px 0 70px;
+    }
+    &__mem-name{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        color: #fff;
+        line-height: 36px;
+        background: transparent;
+        text-align: center;
+        margin-bottom: 7px;
+        margin-top: -20px;
+    }
+    &__mem-position{
+        background: transparent;
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        line-height: 20.83px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__mem-socials{
+        display: flex;
+        column-gap: 12px;
+        background: transparent;
+        padding: 11px 81px;
+    }
+    &__mem-social{
+      color: #28A8EA;
+      background-color: transparent;
+
+    }
+    
+   
+}

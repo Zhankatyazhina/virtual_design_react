@@ -1,0 +1,76 @@
+.service{
+    &__inner{
+        
+        padding-top: 127px;
+    }
+    &__title{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    &__text{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    &__list , 
+    &__list2{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+   
+    &__item{
+        background: 
+        // linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%)
+        linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px 0px #0000000D;
+        border-radius: 34px;
+        width: 370px;
+        height: 336px;
+        text-align: center;
+        padding: 35px 23px;
+    }
+    &__item-img{
+        margin-bottom: 19px;
+        background:  transparent;
+    }
+    &__item-title{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 17px;
+        background:  transparent;
+    }
+    &__item-text{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 24px;
+        background:  transparent;
+    }
+    &__item-more{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        background:  transparent;
+    }
+    &__item-more::after{
+        content: "";
+        width: 15.4px;
+        height: 13px;
+        margin: 0 0 0 5px;
+        background-image: url("../../Assets//images//more-line.png");
+        display: inline-block;
+
+    }
+}

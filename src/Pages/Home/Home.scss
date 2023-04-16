@@ -1,0 +1,59 @@
+.home{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    &__left{
+        padding-top: 210px;
+    }
+    &__title{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 700;
+        font-size: 58px;
+        background-image: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+        margin-bottom: 29px;
+        line-height: 145%;
+    }
+    &__text{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #E5E7EB;
+        line-height:200%;
+        opacity: 0.8;
+        margin-bottom: 31px;
+    }
+    &__clicks{
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+    }
+    &__btn{
+        width: 135px;
+        height: 61px;
+        border-radius: 6px;
+        padding: 20px 40px;
+        background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+        border: none;
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #F9FAFB;
+    }
+    &__btn:hover{
+        background: linear-gradient(90.35deg, #0c46c5 0.36%, #9810ad 201.02%);
+
+    }
+    &__link{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #F9FAFB;
+    }
+    
+}

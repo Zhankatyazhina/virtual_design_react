@@ -1,0 +1,44 @@
+.customer{
+    &__first-row{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 35px;
+        align-items: center;
+        padding-top: 57px; 
+    }
+    &__second-row{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 35px;
+        align-items: center;
+        padding-top: 120px; 
+    }
+    &__title{
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 55px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    &__text{
+
+        font-family: 'DM Sans' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #fff;
+        margin-bottom: 37px;
+    }
+    &__btn{
+        background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+        width: 99px;
+        height: 31px;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        border: none;
+    }
+}
